@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanh Điều Hướng</title>
+  <style>
+    /* Thanh điều hướng */
+    .navbar {
+      background-color: #333; /* Màu nền của thanh điều hướng */
+      overflow: hidden; /* Đảm bảo các phần tử không bị tràn ra ngoài */
+    }
+
+    /* Liên kết trong thanh điều hướng */
+    .navbar a {
+      float: left; /* Đặt các liên kết bên trái */
+      display: block; /* Hiển thị dưới dạng khối */
+      color: white; /* Màu chữ trắng */
+      text-align: center; /* Căn giữa văn bản */
+      padding: 14px 20px; /* Khoảng cách xung quanh chữ */
+      text-decoration: none; /* Bỏ gạch chân */
+    }
+
+    /* Hiệu ứng hover cho các liên kết */
+    .navbar a:hover {
+      background-color: #ddd; /* Màu nền khi di chuột qua */
+      color: black; /* Màu chữ khi di chuột qua */
+    }
+
+    /* Đảm bảo menu được căn giữa trên màn hình */
+    .navbar a.active {
+      background-color: #4CAF50; /* Màu nền cho liên kết đang hoạt động */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Thanh Điều Hướng -->
+  <div class="navbar">
+    <a href="#home" class="active">Trang Chủ</a>
+    <a href="#about">Giới Thiệu</a>
+    <a href="#services">Dịch Vụ</a>
+    <a href="#contact">Liên Hệ</a>
+  </div>
+
+  <h1>Chào Mừng Đến Với Trang Web Của Chúng Tôi</h1>
+  <p>Đây là một ví dụ về thanh điều hướng trong HTML.</p>
+
+</body>
+</html>
